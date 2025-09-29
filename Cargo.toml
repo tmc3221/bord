@@ -1,0 +1,13 @@
+[workspace]
+members = [
+  "crates/bord-dsl",
+  "crates/bord-engine",
+  "crates/bord-cli",
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name"]
+license = "MIT"

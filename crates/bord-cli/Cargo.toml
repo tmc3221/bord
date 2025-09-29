@@ -1,0 +1,10 @@
+[package]
+name = "bord-cli"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+bord-dsl = { path = "../bord-dsl" }
+bord-engine = { path = "../bord-engine" }

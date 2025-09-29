@@ -1,0 +1,9 @@
+[package]
+name = "bord-engine"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+thiserror = "1"
+# We'll add cpal/crossbeam/symphonia later

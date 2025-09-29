@@ -1,0 +1,9 @@
+[package]
+name = "bord-dsl"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+thiserror = "1"
+# We'll add pest later when we write the parser
