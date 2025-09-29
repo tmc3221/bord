@@ -6,4 +6,6 @@ license = "MIT"
 
 [dependencies]
 thiserror = "1"
-# We'll add cpal/crossbeam/symphonia later
+cpal = "0.15"
+anyhow = "1"
+parking_lot = "0.12"
